@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MusicMate</string>
+    <string name="skip_previous_action_text">Skip previous</string>
+    <string name="pause_action_text">Pause</string>
+    <string name="play_action_text">Play</string>
+    <string name="skip_next_action_text">Skip next</string>
+    <string name="album_cover_text">Album cover image</string>
+    <string name="now_playing_album_cover_text">Album cover image</string>
+    <string name="repeat_mode_action_text">Repeat mode</string>
+    <string name="shuffle_action_text">Shuffle</string>
+    <string name="generic_playback_error_text">Unable to play this song</string>
+</resources>

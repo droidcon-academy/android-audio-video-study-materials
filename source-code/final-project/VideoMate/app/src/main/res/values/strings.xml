@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VideoMate</string>
+
+    <string name="pause_action_text">Pause</string>
+    <string name="play_action_text">Play</string>
+    <string name="rewind_action_text">Rewind</string>
+    <string name="forward_action_text">Rewind</string>
+    <string name="fullscreen_enter_action">Enter Fullscreen</string>
+    <string name="skip_next_action_text">Skip next</string>
+    <string name="skip_previous_action_text">Skip previous</string>
+    <string name="playback_speed_action">Playback speed</string>
+    <string name="retry_action_text">Retry</string>
+
+</resources>

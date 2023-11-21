@@ -44,6 +44,14 @@ object VideoList : List<Video> by arrayListOf(
     ),
     Video(
         id = 6,
+        title = "Error test",
+        source = "invalid",
+        thumb = "",
+        durationSeconds = 0,
+        format = "error",
+    ),
+    Video(
+        id = 7,
         title = "For Bigger Escapes",
         source = "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
         thumb = "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg",
@@ -51,19 +59,11 @@ object VideoList : List<Video> by arrayListOf(
         format = "mp4",
     ),
     Video(
-        id = 7,
+        id = 8,
         title = "Sintel",
         source = "https://storage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
         thumb = "https://storage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg",
         durationSeconds = 887,
         format = "mp4",
     ),
-    Video(
-        id = 8,
-        title = "Error test",
-        source = "invalid",
-        thumb = "",
-        durationSeconds = 0,
-        format = "error",
-    )
 )

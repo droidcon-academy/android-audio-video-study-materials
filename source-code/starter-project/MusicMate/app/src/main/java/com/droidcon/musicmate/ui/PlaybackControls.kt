@@ -107,7 +107,7 @@ private fun PlayerSlider(
             onValueChangeFinished = { onSeek(sliderState) },
             modifier = Modifier.fillMaxWidth(),
             colors = SliderDefaults.colors(),
-            track = { sliderPositions ->
+            track = {
                 Box {
                     val bufferedSeconds = (TimeUnit.MILLISECONDS.toSeconds(
                         bufferedProgress
@@ -115,12 +115,12 @@ private fun PlayerSlider(
                     SliderDefaults.Track(
                         colors = SliderDefaults.colors(),
                         enabled = false,
-                        sliderPositions = SliderPositions(0f..bufferedSeconds),
+                        sliderState = SliderState(bufferedSeconds),
                     )
                     SliderDefaults.Track(
                         colors = SliderDefaults.colors(inactiveTrackColor = Color.Transparent),
                         enabled = true,
-                        sliderPositions = sliderPositions,
+                        sliderState = it,
                     )
                 }
             }
